@@ -1,0 +1,53 @@
+<GXLocations>
+<!-- CONFIGURAÇÃO INDICANDO A BASE URL DO SISBASE ati36 -->		
+	<GXLocation name="LOC:127.0.0.1/sisbasecadu/servlet/">
+		<Common>
+			<Host>10.1.5.18</Host>
+			<Port>28080</Port>
+			<BaseURL>/quartzo/servlet/</BaseURL>
+			<Secure>0</Secure>
+		</Common>
+	</GXLocation>	
+	<GXLocation name="LOC:localhost/sisbasecadu/servlet/">
+		<Common>
+			<Host>10.1.5.18</Host>
+			<Port>28080</Port>
+			<BaseURL>/quartzo/servlet/</BaseURL>
+			<Secure>0</Secure>
+		</Common>
+	</GXLocation>	
+	<GXLocation name="LOC:127.0.0.1/quartzo/servlet/">
+		<Common>
+			<Host>10.1.5.18</Host>
+			<Port>28080</Port>
+			<BaseURL>/quartzo/servlet/</BaseURL>
+			<Secure>0</Secure>
+		</Common>
+	</GXLocation>
+    <GXLocation name="LOC:localhost/quartzo/servlet/">
+		<Common>
+			<Host>10.1.5.18</Host>
+			<Port>28080</Port>
+			<BaseURL>/quartzo/servlet/</BaseURL>
+			<Secure>0</Secure>
+		</Common>
+	</GXLocation>	
+	
+	<GXLocation name="LOC:localhost/e-safira/servlet/">
+		<Common>
+			<Host>172.17.17.4</Host>
+			<Port>28080</Port>
+			<BaseURL>/e-safira/servlet/</BaseURL>
+			<Secure>0</Secure>
+		</Common>
+	</GXLocation>
+	
+	<GXLocation name="LOC:127.0.0.1/e-safira/servlet/">
+		<Common>
+			<Host>172.17.17.4</Host>
+			<Port>28080</Port>
+			<BaseURL>/e-safira/servlet/</BaseURL>
+			<Secure>0</Secure>
+		</Common>
+	</GXLocation>
+</GXLocations>
